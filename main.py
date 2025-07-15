@@ -32,8 +32,4 @@ def generate_password(min_length, numbers = True, special_characters = True):
             meets_criteria = has_special and meets_criteria
 
     return pwd
-        
-      
-    
-
-generate_password(10) 
+    print(generate_password(12, True, True))
